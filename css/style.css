@@ -1,0 +1,322 @@
+h1 {
+  font-size: 32px;
+  color: #c6cacd;
+}
+
+h2 {
+  font-size: 16px;
+  color: #c6cacd;
+}
+
+p {
+  font-size: 6.4px;
+  color: #c6cacd;
+}
+
+span {
+  font-size: 6.4px;
+  color: #c6cacd;
+}
+
+label {
+  font-size: 4.8px;
+  color: #c6cacd;
+}
+
+h5 {
+  font-size: 6.4px;
+  color: #c6cacd;
+}
+
+h1 {
+  color: black;
+}
+
+span {
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: 'Rubik';
+  font-weight: 400 , 500 , 700;
+}
+
+section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+}
+section article:first-of-type {
+  z-index: 2;
+  height: 470px;
+  width: 210px;
+  background-color: #f5f3f7;
+  border: 5px solid white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 35px 0.1px grey;
+}
+section article:first-of-type div:first-of-type {
+  z-index: -1;
+  padding: 5px;
+  padding-top: 30px;
+  margin: 50px auto;
+  margin-top: -0px;
+  width: 180px;
+  height: 70px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background: linear-gradient(to right, #8838ff, #e942ff);
+}
+section article:first-of-type div:first-of-type i {
+  color: white;
+  position: relative;
+  top: 2px;
+  font-size: 14px;
+}
+section article:first-of-type div:first-of-type img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+section article:first-of-type div:first-of-type span {
+  position: relative;
+  top: -3px;
+}
+section article:first-of-type div:first-of-type label {
+  display: block;
+  margin-left: 48px;
+  margin-top: -10px;
+}
+section article:first-of-type div:first-of-type #three-dots {
+  float: right;
+  position: relative;
+  top: -23px;
+  left: -5px;
+  cursor: pointer;
+}
+section article:first-of-type div:nth-of-type(2) {
+  z-index: 5000;
+  width: 100px;
+  height: 20px;
+  margin: 50px auto;
+  margin-top: -120px;
+  background-color: white;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+section article:first-of-type p:first-of-type {
+  border-radius: 10px;
+  background-color: #dddedf;
+  color: #454545;
+  width: 130px;
+  line-height: 12px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  padding: 5px;
+  padding-left: 10px;
+}
+section article:first-of-type p:nth-of-type(2) {
+  border-radius: 10px;
+  background-color: #dddedf;
+  color: #454545;
+  width: 130px;
+  line-height: 12px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  top: 2px;
+}
+section article:first-of-type p:nth-of-type(3) {
+  border-radius: 10px;
+  background-color: #dddedf;
+  color: #454545;
+  width: 130px;
+  line-height: 12px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  float: right;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  right: 10px;
+  background-color: white;
+}
+section article:first-of-type p:nth-of-type(4) {
+  border-radius: 10px;
+  background-color: #dddedf;
+  color: #454545;
+  width: 130px;
+  line-height: 12px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  float: right;
+  position: relative;
+  top: 5px;
+  left: 0px;
+  right: 10px;
+  background-color: white;
+}
+section article:first-of-type div:nth-of-type(3) {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  float: right;
+}
+section article:first-of-type div:nth-of-type(3) img {
+  margin-left: -5px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+section article:first-of-type p:nth-of-type(5) {
+  border-radius: 10px;
+  background-color: #dddedf;
+  color: #454545;
+  width: 130px;
+  line-height: 12px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  position: relative;
+  margin-top: 120px;
+}
+section .walk1, section .walk2 {
+  margin-top: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #e942ff, #8838ff);
+  width: 150px;
+  padding: 1px;
+  padding-left: 5px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+section .walk1 i, section .walk2 i {
+  font-size: 13px;
+  color: #dedede;
+  opacity: 0.5;
+}
+section .walk1 h5, section .walk2 h5 {
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: -1.5px;
+  left: 3px;
+}
+section .walk1 span, section .walk2 span {
+  float: right;
+  padding-right: 5px;
+  position: relative;
+  top: 4px;
+  font-size: 13px;
+}
+section footer {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+section footer input {
+  border-radius: 20px;
+  border: 1px solid white;
+  width: 90%;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 8px;
+}
+section footer i {
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  left: 150px;
+  top: 3px;
+  float: right;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+section article:last-of-type {
+  z-index: 2;
+  width: 40%;
+}
+section article:last-of-type h2 {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.design-left {
+  position: absolute;
+  top: 0px;
+  left: -100px;
+  width: 500px;
+  height: 600px;
+  border-bottom-right-radius: 350px;
+  border-bottom-left-radius: 350px;
+  background: linear-gradient(#e942ff, #8838ff);
+}
+
+.design-right {
+  position: absolute;
+  bottom: 0px;
+  left: 70%;
+  width: 500px;
+  height: 600px;
+  border-top-right-radius: 350px;
+  border-top-left-radius: 350px;
+  background: #f5f3f7;
+}
+
+@media (max-width: 850px) {
+  section {
+    margin-top: 50px;
+    display: block;
+    align-items: stretch;
+    column-gap: 0px;
+    margin: 50px auto;
+  }
+  section article:first-of-type {
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+  }
+  section article:last-of-type {
+    position: relative;
+    top: 550px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .design-left {
+    position: absolute;
+    top: 0px;
+    left: -100px;
+    width: 300px;
+  }
+
+  .design-right {
+    position: absolute;
+    top: 300px;
+    left: 70%;
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
